@@ -6,8 +6,17 @@
 }
 
 /* Skins */
-body{
+.home-grid{
+    background:#443742 ;
+}
 
+footer{
+    background:#443742 ;
+
+}
+
+header{
+    background:#DB504A ;
 }
 
 /* Sign in & Registering */
