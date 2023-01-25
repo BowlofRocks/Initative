@@ -3,19 +3,33 @@
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 60px;
 }
+
+.header-structure{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+
+
 
 /* Skins */
-.home-grid{
+.landing-body{
     background:#443742 ;
-}
-
-footer{
-    background:#443742 ;
-
 }
 
 header{
+    background:#DB504A ;
+}
+
+.about-card{
+    background:#DB504A ;
+}
+
+.register-card{
     background:#DB504A ;
 }
 
