@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+
 /* Landing */
 /* Structure */
 .home-grid{
@@ -10,6 +13,7 @@
 .header-structure{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
     padding: 50px;
 }
 
@@ -19,6 +23,18 @@
 /* Skins */
 .landing-body{
     background:#443742 ;
+
+}
+
+.headingfonts{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.paragraphfonts{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
 }
 
 header{
@@ -27,10 +43,20 @@ header{
 
 .about-card{
     background:#DB504A ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: black -5px -5px 2px;
 }
 
 .register-card{
     background:#DB504A ;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.footer_contact{
+    color: #EDCB96
 }
 
 /* Sign in & Registering */
