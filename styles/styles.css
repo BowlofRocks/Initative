@@ -1,34 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 
 
+/* colors to use */
+/* Purpose of these is so if we wanted to change the background color of something we can use these as shortcuts */
+.beige-color{
+    color: #EDCB96;
+}
+.beige-color-bg{
+    background: #EDCB96;
+}
+
 /* Landing */
 /* Structure */
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
     margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 .header-structure{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;      
     padding: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
 }
+
+
+.register-alignment{
+    text-align: center;
+}
+
+.rbuttoncorner {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;  
+  }
+
+.about-card{
+    width: 80%;
+    height: 100%;
+    
+
+  }
+  
+.register-card{
+    width: 80%;
+    height: 100%;
+    
+  }
+
 
 
 
 
 /* Skins */
-.landing-body{
-    background:#443742 ;
-
+.landing-body-bg{
+    background: #443742;
 }
 
 .headingfonts{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+}
+
+.a.nav-skins:hover{
+    color: #EDCB96;
 }
 
 .paragraphfonts{
@@ -53,11 +96,10 @@ header{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     box-shadow: black 5px 5px 5px;
+    
+    
 }
 
-.footer_contact{
-    color: #EDCB96
-}
 
 /* Sign in & Registering */
 /* Structure */

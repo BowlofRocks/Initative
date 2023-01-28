@@ -9,13 +9,13 @@
 </head>
 
 <!-- Turn this into id to separate them from other html -->
-<body class="landing-body headingfonts">
+<body class="landing-body-bg headingfonts">
     <header class="header-structure">
         <nav>
             <img class="logo-pic" src="#" alt="logo-pic">
-            <a href="#">HOME</a>
-            <a href="#">CAMPAIGN</a>
-            <a href="#">SIGN IN</a>
+            <a class="nav-skins" href="#">HOME</a>
+            <a class="nav-skins" href="#">CAMPAIGN</a>
+            <a class="nav-skins" href="#">SIGN IN</a>
         </nav>
     </header>
 
@@ -31,21 +31,25 @@
                     accusamus commodi, repellendus hic tenetur magnam voluptatem consectetur 
                     nostrum earum maiores sint.
                 </h3>
-                <img src="/images/rogue.jpg" alt="">
+                <img src="/images/rogue.jpg" width="100%" height="50%" alt="">
             </div>
         </section>
         
-        <section class="register-card">
-                <img class="card-img" src="/images/dragon.jpg" alt="random picture">
-                <a href="#">Register</a>
+        <section class="register-card register-alignment">
+                <img class="card-img" src="/images/dragon.jpg" width="100%" height="70%" alt="random picture">
+                <button id="register-btn" class="rbuttoncorner beige-color-bg" type="button">Register</button>
+        
         </section>
     </main>
 
     <footer>
-        <h3 class ="footer_contact paragraphfonts">This was last updated 2023 </h3>
-        <h3 class ="footer_contact paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
-        <h3 class ="footer_contact paragraphfonts">This is where the Team Email will be</h3>
+        <h3 class ="beige-color paragraphfonts">This was last updated 2023 </h3>
+        <h3 class ="beige-color paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
+        <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
     </footer>
+
+    
+    <script src="./script/landing.js"></script>
 </body>
 
 
