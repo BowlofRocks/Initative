@@ -6,6 +6,7 @@
 .beige-color{
     color: #EDCB96;
 }
+
 .beige-color-bg{
     background: #EDCB96;
 }
@@ -16,19 +17,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    
-    
+
 }
 
 .header-structure{
     display: grid;
     grid-template-columns: 1fr 1fr;      
-    padding: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 
+}
+
+.footer-structure{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 50px;
+    padding: 10px;
 }
 
 
@@ -46,6 +54,7 @@
 .about-card{
     width: 80%;
     height: 100%;
+    margin-bottom: 40px;
     
 
   }
@@ -53,6 +62,7 @@
 .register-card{
     width: 80%;
     height: 100%;
+    margin-bottom: 40px;
     
   }
 
@@ -84,11 +94,17 @@ header{
     background:#DB504A ;
 }
 
+footer{
+    background:#DB504A ;
+}
+
 .about-card{
     background:#DB504A ;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     box-shadow: black -5px -5px 2px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .register-card{
@@ -96,7 +112,8 @@ header{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     box-shadow: black 5px 5px 5px;
-    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     
 }
 
