@@ -22,9 +22,12 @@
 
 }
 
-.header-structure{
+.grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;      
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+.header-structure{    
     padding: 10px;
     margin-bottom: 50px;
     border-top-right-radius: 5px;
@@ -42,6 +45,14 @@
 
 .register-alignment{
     text-align: center;
+}
+
+.sn-buttoncorner{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px; 
+    width: 200px;
+    height: 50px; 
 }
 
 .rbuttoncorner {
@@ -66,9 +77,26 @@
     
   }
 
+  .paragraphfonts{
+    padding: 20px;
+  }
 
+  h2{
+    padding: 40px;
+    text-decoration: underline;
+  }
 
+.title-text-size{
+    font-size:100px;
+}
 
+#sign-in{
+    grid-column: 4/5;
+}
+
+.title-name{
+    grid-column: 2/4;
+}
 
 /* Skins */
 .landing-body-bg{
@@ -77,7 +105,7 @@
 
 .headingfonts{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 .a.nav-skins:hover{
@@ -94,6 +122,10 @@ header{
     background:#DB504A ;
 }
 
+.Sign-in-color{
+    
+}
+
 footer{
     background:#DB504A ;
 }
@@ -102,7 +134,7 @@ footer{
     background:#DB504A ;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: black -5px -5px 2px;
+    border: 9px double black;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -111,13 +143,21 @@ footer{
     background:#DB504A ;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    box-shadow: black 5px 5px 5px;
+    border: 9px double black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    
+}
+.footer-style{
+    border-right:5px inset black ;
+    border-bottom:5px inset black ;
+    border-left:5px inset black ;
 }
 
-
+.header-style{
+    border-right:5px inset black ;
+    border-top:5px inset black ;
+    border-left:5px inset black ;
+}
 /* Sign in & Registering */
 /* Structure */
 /* Skins */
