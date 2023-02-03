@@ -11,6 +11,36 @@
     background: #EDCB96;
 }
 
+/* general skins for all pages of website */
+
+
+.paragraphfonts{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+footer{
+    background:#DB504A ;
+}
+
+header{
+    background:#DB504A ;
+}
+
+/* general structures for all websites */
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+.rbuttoncorner {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;  
+  }
+
 /* Landing */
 /* Structure */
 .home-grid{
@@ -22,10 +52,6 @@
 
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
-}
 
 .header-structure{    
     padding: 10px;
@@ -55,19 +81,10 @@
     height: 50px; 
 }
 
-.rbuttoncorner {
-    border-radius: 25px;
-    padding: 20px; 
-    width: 200px;
-    height: 50px;  
-  }
-
 .about-card{
     width: 80%;
     height: 100%;
     margin-bottom: 40px;
-    
-
   }
   
 .register-card{
@@ -81,7 +98,7 @@
     padding: 20px;
   }
 
-  h2{
+h2{
     padding: 40px;
     text-decoration: underline;
   }
@@ -106,28 +123,6 @@
 .headingfonts{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;    
-}
-
-.a.nav-skins:hover{
-    color: #EDCB96;
-}
-
-.paragraphfonts{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-header{
-    background:#DB504A ;
-}
-
-.Sign-in-color{
-    
-}
-
-footer{
-    background:#DB504A ;
 }
 
 .about-card{
@@ -165,4 +160,10 @@ footer{
 
 /* Initiative */
 /* Structure */
+.init-titles{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #EDCB96  ;
+}
+
 /* Skins */
