@@ -21,7 +21,7 @@
             </section>
 
             <section id="sign-in">
-                <a id="sign-in-button" class=" nav-skins beige-color-bg sn-buttoncorner " href="#">SIGN IN</a>
+                <a id="sign-in-button" class=" nav-skins beige-color-bg sn-buttoncorner " onclick="openForm()" href="#">SIGN IN</a>
                 </section>       
         </div>
     </header>
@@ -54,6 +54,21 @@
         <h3 class ="beige-color paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
         <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
     </footer>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
 
     
     <script src="./script/landing.js"></script>
