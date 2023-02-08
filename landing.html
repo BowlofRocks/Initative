@@ -21,7 +21,7 @@
             </section>
 
             <section id="sign-in">
-                <a id="sign-in-button" class=" nav-skins beige-color-bg sn-buttoncorner " onclick="openForm()" href="#">SIGN IN</a>
+                <a id="sign-in-button" class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
                 </section>       
         </div>
     </header>
@@ -45,7 +45,7 @@
         <section class="register-card register-alignment">
                 <img class="card-img" src="./images/dragon.jpg" width="100%" height="70%" alt="random picture">
                 <h2 class="headingfonts">Enchance your adventures today!</h2>
-                <button id="register-btn" class="rbuttoncorner beige-color-bg" type="button">Register</button>
+                <button id="register-btn" class="rbuttoncorner beige-color-bg" type="button" onclick="rgstrOpenForm()">Register</button>
         </section>
     </main>
 
@@ -55,8 +55,8 @@
         <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
     </footer>
 
-    <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
+    <div class="sn-popup" id="snForm">
+        <form action="/action_page.php" class="sn-form-container">
           <h1>Login</h1>
       
           <label for="email"><b>Email</b></label>
@@ -66,9 +66,25 @@
           <input type="password" placeholder="Enter Password" name="psw" required>
       
           <button type="submit" class="btn">Login</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          <button type="button" class="btn cancel" onclick="signInCloseForm()">Close</button>
         </form>
       </div>
+
+    
+    <div class="rgstr-popup" id="rgstrForm">
+        <form action="/action_page.php" class="rgstr-form-container">
+          <h1>Register</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="rgstrCloseForm()">Close</button>
+        </form>
+    </div>
 
     
     <script src="./script/landing.js"></script>
