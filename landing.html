@@ -21,13 +21,13 @@
             </section>
 
             <section id="sign-in">
-                <a id="sign-in-button" class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
+                <a class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
                 </section>       
         </div>
     </header>
 
     <main class="home-grid">
-        <section class="about-card">
+        <section id="about-card" class="about-card">
             <div id="site-synopsis">
                 <h2 class="headingfonts">LOREM IPSUM, US</h2>
                 <h3 class ="paragraphfonts">
@@ -45,7 +45,7 @@
         <section class="register-card register-alignment">
                 <img class="card-img" src="./images/dragon.jpg" width="100%" height="70%" alt="random picture">
                 <h2 class="headingfonts">Enchance your adventures today!</h2>
-                <button id="register-btn" class="rbuttoncorner beige-color-bg" type="button" onclick="rgstrOpenForm()">Register</button>
+                <button class="rbuttoncorner beige-color-bg" type="button" onclick="rgstrOpenForm()">Register</button>
         </section>
     </main>
 
@@ -65,7 +65,7 @@
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
       
-          <button type="submit" class="btn">Login</button>
+          <button id="sign-in-button" type="submit" class="btn">Login</button>
           <button type="button" class="btn cancel" onclick="signInCloseForm()">Close</button>
         </form>
       </div>
@@ -81,7 +81,7 @@
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
       
-          <button type="submit" class="btn">Login</button>
+          <button id="register-btn" type="submit" class="btn">Login</button>
           <button type="button" class="btn cancel" onclick="rgstrCloseForm()">Close</button>
         </form>
     </div>

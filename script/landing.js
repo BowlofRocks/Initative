@@ -1,6 +1,9 @@
 const registerBtn = document.querySelector("#register-btn");
 const signInButton = document.querySelector("#sign-in-button");
 const hideHeader = document.querySelector("header");
+const hideFooter = document.querySelector("footer");
+const hideAbout = getElementById("about-card");
+
 
 const registerHandler = () => {
     
@@ -13,11 +16,15 @@ const signInHandler = () => {
 function signInOpenForm() {
     document.getElementById("snForm").style.display = "block";
     hideHeader.classList.add("gray-sign-in");
+    hideFooter.classList.add("gray-sign-in");
+    hideAbout.classList.add("gray-sign-in");
   }
   
 function signInCloseForm() {
     document.getElementById("snForm").style.display = "none";
-    hideHeader.classList.remove("gray-sign-in")
+    hideHeader.classList.remove("gray-sign-in");
+    hideFooter.classList.remove("gray-sign-in");
+    hideAbout.classList.remove("gray-sign-in");
   }
 
 function rgstrOpenForm() {
