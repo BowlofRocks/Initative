@@ -1,0 +1,23 @@
+{
+  "name": "initative",
+  "version": "1.0.0",
+  "description": "Make a DND initiative page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BowlofRocks/Initative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BowlofRocks/Initative/issues"
+  },
+  "homepage": "https://github.com/BowlofRocks/Initative#readme",
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

@@ -2,7 +2,7 @@ const registerBtn = document.querySelector("#register-btn");
 const signInButton = document.querySelector("#sign-in-button");
 const hideHeader = document.querySelector("header");
 const hideFooter = document.querySelector("footer");
-const hideAbout = getElementById("about-card");
+const hideAbout = document.querySelectorAll("section");
 
 
 const registerHandler = () => {
