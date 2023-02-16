@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="./styles/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>Venato</title>
 </head>
 
@@ -23,6 +27,9 @@
             <section id="sign-in">
                 <a class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
                 </section>       
+
+                <a href="#myModal" role="button" class="button" data-toggle="modal">Launch demo modal</a>
+              
         </div>
     </header>
 
@@ -49,6 +56,11 @@
     </main>
 
     <footer class="footer-structure footer-style">
+      <div class="btn-group" data-toggle="buttons-radio">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
         <h3 class ="beige-color paragraphfonts">This was last updated 2023 </h3>
         <h3 class ="beige-color paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
         <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
@@ -85,8 +97,23 @@
         </form>
     </div>
 
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="myModalLabel">Modal header</h3>
+        </div>
+        <div class="modal-body">
+          <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          <button class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+
     
     <script src="./script/landing.js"></script>
+    
 </body>
 
 

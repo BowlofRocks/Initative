@@ -5,6 +5,7 @@ const hideFooter = document.querySelector("footer");
 const hideAbout = document.querySelectorAll("section");
 
 
+
 const registerHandler = () => {
     
 }

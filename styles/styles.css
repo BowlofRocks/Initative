@@ -215,6 +215,7 @@ h2{
   padding: 10px;
   background-color: #443742;
   color: #EDCB96;
+  border: none;
 }
 
 /* Full-width input fields */
@@ -277,12 +278,12 @@ h2{
   background-color: red;
 }
 /* Add some hover effects to buttons */
-.sn-form-container .btn:hover, .open-button:hover {
+ .sn-form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
 .rgstr-form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+  opacity: 1; 
 }
 
 .gray-sign-in{
