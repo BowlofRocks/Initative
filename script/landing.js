@@ -4,7 +4,7 @@ const hideHeader = document.querySelector("header");
 const hideFooter = document.querySelector("footer");
 const hideAbout = document.querySelectorAll("section");
 
-
+$('.btn').button();
 
 const registerHandler = () => {
     
