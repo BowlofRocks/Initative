@@ -26,9 +26,19 @@
 
             <section id="sign-in">
                 <a class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
-                </section>       
+                <button id="myBtn">Open Modal</button>
 
-                <a href="#myModal" role="button" class="button" data-toggle="modal">Launch demo modal</a>
+                <!-- The Modal -->
+                <div id="myModal" class="modal" onclick="signInOpenForm()" >
+
+                    <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                  </div>
+                </div>
+
+                </section> 
               
         </div>
     </header>
