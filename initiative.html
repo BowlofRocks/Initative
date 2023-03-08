@@ -5,46 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="./styles/styles.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/initiative.css" />
     <title>Initiative Tracker</title>
 </head>
-<body class="landing-body-bg headingfonts">
+<body class="init-body-bg headingfonts">
     <header class="header-structure header-style">
         <div class="grid-container">
+
             <section class="top-logo">
                 <img class="logo-pic" src="./images/fakelogo.png" alt="logo-pic">
-                    </section>     
+                    </section>
+                    
+            <section class="title-name">
+                <h1 class="title-text-size">I N I T I A T I V E</h1>
+            </section>
+
+            <section id="sign-in">
+                <a class=" nav-skins beige-color-bg sn-buttoncorner " onclick="signInOpenForm()" href="#">SIGN IN</a>
+                <button id="myBtn">Open Modal</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal" onclick="signInOpenForm()" >
+
+                    <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                  </div>
+                </div>
+                </section>              
         </div>
     </header>
-    
-    <div class="init-titles">
-        <h1 class="beige-color">PLAYERS</h1>
-    </div>
-    <section class=" init-tracker init-grid-container">
+    <!---->
+    <section class="mid-info">
         
+        <div class="players">
+            <h1>P L A Y E R S</h1>
+            <div class="player-cards">
+
+            </div>
+            <h2>end</h2>
+        </div>
+
+        <div class="npc">
+            <h1>M O N S T E R S</h1>
+            <div class="npc-cards">
+
+            </div>
+            <h2>end</h2>
+        </div>
+
+        <div class="game">
+            <h1>E N C O U N T E R</h1>
+            <div class="game-run">
+
+            </div>
+            <h2>end</h2>
+        </div>   
     </section>
 
-    <div class="init-titles">
-        <h1 class="beige-color">MONSTERS</h1>
-    </div>
-    
-    <section class="init-tracker init-grid-container">
-
-    </section>
-
-    <div class="init-titles">
-        <h1 class="beige-color">INITIATIVE</h1>
-    </div>
-    <section class="init-tracker init-grid-container">
-        
-    </section>
-
-
+    <!---->
     <footer class="footer-structure footer-style">
-        <h3 class ="beige-color paragraphfonts">This was last updated 2023 </h3>
-        <h3 class ="beige-color paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
-        <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
-    </footer>
+          <h3 class ="beige-color paragraphfonts">This was last updated 2023 </h3>
+          <h3 class ="beige-color paragraphfonts">This was made by: Paul Amago, Kenton Olsen, Carson Rumsey </h3>
+          <h3 class ="beige-color paragraphfonts">This is where the Team Email will be</h3>
+      </footer>
     <script src="./script/initiative.js"></script>
 </body>
 </html>

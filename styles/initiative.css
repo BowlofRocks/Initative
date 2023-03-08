@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+
+/* colors to use */
+/* Purpose of these is so if we wanted to change the background color of something we can use these as shortcuts */
+.beige-color{
+    color: #EDCB96;
+}
+
+.beige-color-bg{
+    background: #EDCB96;
+}
+
+/* general skins for all pages of website */
+
+
+.paragraphfonts{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+footer{
+    background:#DB504A ;
+}
+
+header{
+    background:#DB504A ;
+}
+
+/* general structures for all websites */
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+
+/* Structure */
+.init-titles{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #EDCB96  ;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.header-structure{    
+    padding: 10px;
+    margin-bottom: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.footer-structure{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.paragraphfonts{
+    padding: 20px;
+  }
+
+.player-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.npc-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.game-run{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+/* Skins */
+.init-body-bg{
+    background: #443742;
+}
+
+.header-style{
+    border-right:5px inset black ;
+    border-top:5px inset black ;
+    border-left:5px inset black ;
+}
+
+.footer-style{
+    border-right:5px inset black ;
+    border-bottom:5px inset black ;
+    border-left:5px inset black ;
+}
+
+.headingfonts{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;    
+}
