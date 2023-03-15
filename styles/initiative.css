@@ -59,6 +59,14 @@ header{
 
 }
 
+.title-name{
+    grid-column: 2/4;
+}
+
+#sign-in{
+    grid-column: 4/5;
+}
+
 .footer-structure{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -104,5 +112,9 @@ header{
 
 .headingfonts{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;    
+    font-weight: bold;    ;
+}
+
+.title-text-size{
+    font-size:60px;
 }
